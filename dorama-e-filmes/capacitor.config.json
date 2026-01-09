@@ -1,5 +1,7 @@
-{
-  "appId": "com.doramafilmes.app",
-  "appName": "dorama e fulmes",
-  "webDir": "dist"
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+  base: "./",
+  plugins: [react()]
 }
